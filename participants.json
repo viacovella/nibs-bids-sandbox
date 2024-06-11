@@ -1,0 +1,52 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "year"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "handedness": {
+        "Description": "handedness of the participant as reported by the participant",
+        "Levels": {
+            "left": "left",
+            "right": "right"
+        }
+    },
+    "group": {
+        "Description": "experimental group the participant belonged to",
+        "Levels": {
+            "1": "C1 AtDCS 3mA Sham AtDCS 3mA - OFFLINE",
+            "2": "C1 AtDCS 1.5mA Sham AtDCS 1.5mA - OFFLINE",
+			"3": "C1 Sham AtDCS 3mA AtDCS 3mA - ONLINE",
+            "4": "C1 Sham AtDCS 1.5mA AtDCS 1.5mA - ONLINE",
+			"5": "C1 Sham AtDCS 3/1.5mA - AtDCS 3/1.5mA - Sham",
+            "6": "C2 AtDCS 3mA Sham AtDCS 3mA - OFFLINE",
+			"7": "C3 CtDCS 3mA Sham CtDCS 3mA - OFFLINE",
+            "8": "C3 Sham CtDCS 3mA CtDCS 3mA OFFLINE"
+        }
+    },
+	
+	"electrode": {
+        "Description": "Electrode configuration",
+        "Levels": {
+            "C1": "Anode on P3(10/20 EEG system), Cathode on the upper part of the right arm",
+            "C2": "Anode on P4(10/20 EEG system), Cathode on the upper part of the left arm",
+			"C3": "Anode on the upper part of the right arm, Cathode on P3(10/20 EEG system)"
+        }
+    },
+	
+	"e1mod": {
+        "Description": "Description of phase 1 modality",
+        "Levels": {
+            "AtDCS": "",
+            "AtDCS - Sham": "",
+			"CtDCS": "",
+            "CtDCS - Sham": ""
+        }
+    }
+}
