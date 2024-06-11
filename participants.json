@@ -40,6 +40,16 @@
         }
     },
 	
+    "modality": {
+        "Description": "Modality of presenting the NIBS",
+        "Levels": {
+            "Online": "Applicating the NIBS during task execution",
+            "Offline": "Applicating the NIBS before task execution"
+        }
+    },
+	
+
+
 	"e1mod": {
         "Description": "Description of phase 1 modality",
         "Levels": {
