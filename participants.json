@@ -31,7 +31,7 @@
         }
     },
 	
-	"electrode": {
+	"electconf": {
         "Description": "Electrode configuration",
         "Levels": {
             "C1": "Anode on P3(10/20 EEG system), Cathode on the upper part of the right arm",
@@ -40,8 +40,8 @@
         }
     },
 	
-    "modality": {
-        "Description": "Modality of presenting the NIBS",
+    "application": {
+        "Description": "Timing of NIBS application",
         "Levels": {
             "Online": "Applicating the NIBS during task execution",
             "Offline": "Applicating the NIBS before task execution"
