@@ -31,7 +31,7 @@
         }
     },
 	
-	"electrode": {
+	"electconf": {
         "Description": "Electrode configuration",
         "Levels": {
             "C1": "Anode on P3(10/20 EEG system), Cathode on the upper part of the right arm",
@@ -40,13 +40,63 @@
         }
     },
 	
-	"e1mod": {
-        "Description": "Description of phase 1 modality",
+    "application": {
+        "Description": "Timing of NIBS application",
         "Levels": {
-            "AtDCS": "",
-            "AtDCS - Sham": "",
-			"CtDCS": "",
-            "CtDCS - Sham": ""
+            "Online": "Applicating the NIBS during task execution",
+            "Offline": "Applicating the NIBS before task execution"
+        }
+    },
+	
+
+
+	"e1protocol": {
+        "Description": "Description of experiment 1 protocol",
+        "Levels": {
+            "AtDCS": "Anodal transcranial Direct Current Stimulation",
+            "CtDCS": "Cathodal transcranial Direct Current Stimulation"
+        }
+    },
+
+    "e1intensity": {
+        "Description": "Description of experiment 1 current intensity",
+        "Levels": {
+            "1.5": "1.5 milliampere",
+            "3": "3 milliampere"
+        }
+    },
+
+    "e1application": {
+        "Description": "Description of of experiment 1 typology of application",
+        "Levels": {
+            "Real": "Real application of NIBS",
+            "Sham": "Sham application of NIBS"
+        }
+    },
+
+
+    "e2protocol": {
+        "Description": "Description of experiment 2 protocol",
+        "Levels": {
+            "AtDCS": "Anodal transcranial Direct Current Stimulation",
+            "CtDCS": "Cathodal transcranial Direct Current Stimulation"
+        }
+    },
+
+    "e2intensity": {
+        "Description": "Description of experiment 2 current intensity",
+        "Levels": {
+            "1.5": "1.5 milliampere",
+            "3": "3 milliampere"
+        }
+    },
+
+    "e2application": {
+        "Description": "Description of experiment 2 typology of application",
+        "Levels": {
+            "Real": "Real application of NIBS",
+            "Sham": "Sham application of NIBS"
         }
     }
+
 }
