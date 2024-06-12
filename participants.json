@@ -44,7 +44,7 @@
         "Description": "Timing of NIBS application",
         "Levels": {
             "Online": "Applicating the NIBS during task execution",
-            "Offline": "Applicating the NIBS before task execution"
+            "Offline": "Applicating the NIBS before task execution, while listening to an audiobook"
         }
     },
 	
