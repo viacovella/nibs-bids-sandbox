@@ -20,14 +20,14 @@
     "group": {
         "Description": "experimental group the participant belonged to",
         "Levels": {
-            "1": "C1 AtDCS 3mA Sham AtDCS 3mA - OFFLINE",
-            "2": "C1 AtDCS 1.5mA Sham AtDCS 1.5mA - OFFLINE",
-			"3": "C1 Sham AtDCS 3mA AtDCS 3mA - ONLINE",
-            "4": "C1 Sham AtDCS 1.5mA AtDCS 1.5mA - ONLINE",
-			"5": "C1 Sham AtDCS 3/1.5mA - AtDCS 3/1.5mA - Sham",
-            "6": "C2 AtDCS 3mA Sham AtDCS 3mA - OFFLINE",
-			"7": "C3 CtDCS 3mA Sham CtDCS 3mA - OFFLINE",
-            "8": "C3 Sham CtDCS 3mA CtDCS 3mA OFFLINE"
+            "1": "C1 OFFLINE AtDCS 3mA Real-Sham",
+            "2": "C1 OFFLINE AtDCS 1.5mA Real-Sham",
+			"3": "C1 ONLINE AtDCS 3mA Sham-Real",
+            "4": "C1 ONLINE AtDCS 1.5mA Sham-Real",
+			"5": "C1 OFFLINE AtDCS N/A Sham-Sham",
+            "6": "C2 OFFLINE AtDCS 3mA Real-Sham",
+			"7": "C3 OFFLINE CtDCS 3mA Real-Sham",
+            "8": "C3 OFFLINE CtDCS 3mA Sham-Real"
         }
     },
 	
@@ -50,52 +50,28 @@
 	
 
 
-	"e1protocol": {
-        "Description": "Description of experiment 1 protocol",
+	"protocol": {
+        "Description": "Description of experimental protocol",
         "Levels": {
             "AtDCS": "Anodal transcranial Direct Current Stimulation",
             "CtDCS": "Cathodal transcranial Direct Current Stimulation"
         }
     },
 
-    "e1intensity": {
-        "Description": "Description of experiment 1 current intensity",
+    "Intensity": {
+        "Description": "Description of current intensity",
         "Levels": {
             "1.5": "1.5 milliampere",
             "3": "3 milliampere"
         }
     },
 
-    "e1application": {
-        "Description": "Description of of experiment 1 typology of application",
+    "sequence": {
+        "Description": "Description of Real / Sham sequence of application",
         "Levels": {
-            "Real": "Real application of NIBS",
-            "Sham": "Sham application of NIBS"
-        }
-    },
-
-
-    "e2protocol": {
-        "Description": "Description of experiment 2 protocol",
-        "Levels": {
-            "AtDCS": "Anodal transcranial Direct Current Stimulation",
-            "CtDCS": "Cathodal transcranial Direct Current Stimulation"
-        }
-    },
-
-    "e2intensity": {
-        "Description": "Description of experiment 2 current intensity",
-        "Levels": {
-            "1.5": "1.5 milliampere",
-            "3": "3 milliampere"
-        }
-    },
-
-    "e2application": {
-        "Description": "Description of experiment 2 typology of application",
-        "Levels": {
-            "Real": "Real application of NIBS",
-            "Sham": "Sham application of NIBS"
+            "RS": "Real application first, then Sham",
+            "SR": "Sham first, then real application",
+            "SS": "Sham / Sham"
         }
     }
 

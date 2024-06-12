@@ -1,2 +1,4 @@
 # nibs-bids-sandbox
-draft repository for representing a NIBS experiment with BIDS
+Draft repository for representing a NIBS experiment with BIDS.
+All the data are FAKE.
+
