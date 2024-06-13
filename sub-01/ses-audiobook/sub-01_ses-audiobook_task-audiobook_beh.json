@@ -19,7 +19,7 @@
         "Levels": {
             "Real": "actual application of NIBS",
             "Sham": "Fake application of NIBS",
-	"N/A": "if not applicable"
+            "N/A": "if not applicable"
         }
     },
     "intensity": {
