@@ -11,7 +11,7 @@
         "LongName": "Trial type",
         "Levels": {
             "audiobook": "the audiobook presented to the participants",
-            "task": "the participant performs the task" ****
+            "task": "the participant performs the task"
         }
     },
     "typology": {
@@ -19,7 +19,7 @@
         "Levels": {
             "Real": "actual application of NIBS",
             "Sham": "Fake application of NIBS",
-	"N/A": "if not applicable"
+            "N/A": "if not applicable"
         }
     },
     "intensity": {
@@ -35,6 +35,6 @@
         "DeviceSerialNumber": "NA"
     },
     "NIBS_Procedure": {
-        "StimulationProcedure": "Electrical stimulation was delivered via two rubber electrodes inserted in saline-soaked sponges. The target electrode size was 5 × 5 cm while the return electrode size was 6 × 7 cm. Electrodes were kept in place with the use of elastic bands, which ensured a homogeneous pressure on the electrode surface and minimized the probability of drops in current density.",
+        "StimulationProcedure": "Electrical stimulation was delivered via two rubber electrodes inserted in saline-soaked sponges. The target electrode size was 5 x 5 cm while the return electrode size was 6 × 7 cm. Electrodes were kept in place with the use of elastic bands, which ensured a homogeneous pressure on the electrode surface and minimized the probability of drops in current density.",
     }
 }

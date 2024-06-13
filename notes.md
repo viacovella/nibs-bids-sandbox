@@ -1,6 +1,12 @@
 # Log of the changes
 
 
+## 2024-06-13
+* Sessions
+    * defined the sessions sequence (audiobook; experiment)
+    * updated the sessions{tsv,json} files
+    * created the audiobook session behavioral files
+
 ## 2024-06-12
 
 * Fake Participants
