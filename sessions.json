@@ -1,0 +1,8 @@
+{
+    "session_id": {
+        "Description": "Name of the Session"
+    },
+    "acq_time": {
+        "Description": "Order of the session"
+    }
+}
