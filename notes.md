@@ -1,5 +1,8 @@
 # Log of the changes
 
+## 2025-06-10
+* Refreshed participants 1 - 2 - 3 - 4 according to issue #12
+
 ## 2024-11-21
 * Inserted an attempt of representing the 2 main situations of the dataset: Offline / Online (sub-03), Online / Offline (sub-01)
 * For now, there are no "intervention" directories (see BEP section 2.4), in that here the offline period is in combination with the presentation of an audiobook

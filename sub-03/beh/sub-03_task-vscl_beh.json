@@ -1,0 +1,75 @@
+{
+    "onset": {
+        "LongName": "onset of the stimulus",
+        "Units": "seconds (s) from the beginning of the recording"
+    },
+    "duration": {
+        "LongName": "duration of the stimulus",
+        "Units": "seconds (s)"
+    },
+
+
+    "ID": {
+        "LongName": "ID of the stimulus",
+        "Units": "integer number from 1 to 24"
+    },
+
+    "Position": {
+        "LongName": "Position of the cue within the current stimulus",
+        "Levels": {
+            "left": "cue on the left side of the screen",
+            "right": "cue on the right side of the screen"
+        }
+    },
+
+
+    "Novelty": {
+        "LongName": "If the stimulus configuration was already seen by the participant",
+        "Levels": {
+            "old": "already seen configuration",
+            "new": "new configuration"
+        }
+    },
+
+    "OtherTrial": {
+        "LongName": "ID of the trial where the configuration were already shown to the participant",
+        "Units": "integer number from 1 to 12"
+    },
+
+
+    "Color": {
+        "LongName": "The color of the cue",
+        "Levels": {
+            "R": "red",
+            "G": "green",
+            "B": "blue",
+            "Y": "yellow"
+        }
+    },
+
+
+    "typology": {
+        "LongName": "Typology of NIBS application",
+        "Levels": {
+            "Real": "actual application of NIBS",
+            "Sham": "Fake application of NIBS",
+            "N/A": "if not applicable"
+        }
+    },
+    "intensity": {
+        "LongName": "Intensity of the applied stimulation",
+        "Units": "milliAmpere (mA)"
+    },
+    "NIBS_HardwareSoftware": {
+        "Type": "tES",
+        "Subtype": "tDCS",
+        "Description": "transcranial direct current stimulation with 10 s fade in/out",
+        "Manufacturer": "EMS, Bologna, Italy",
+        "DeviceModelName": "Brainstim",
+        "DeviceSerialNumber": "NA"
+    },
+    "NIBS_Procedure": {
+        "StimulationProcedure": "Electrical stimulation was delivered via two rubber electrodes inserted in saline-soaked sponges. The target electrode size was 5 x 5 cm while the return electrode size was 6 × 7 cm. Electrodes were kept in place with the use of elastic bands, which ensured a homogeneous pressure on the electrode surface and minimized the probability of drops in current density.",
+    }
+
+}

@@ -1,0 +1,3 @@
+filename    acq_order   typology    intensity
+./beh/sub-02_task-audiobook.beh.tsv 1   Sham    1.5
+./beh/sub-02_task-vscl.beh.tsv  2   Real    1.5

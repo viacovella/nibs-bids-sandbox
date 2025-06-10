@@ -1,0 +1,3 @@
+filename    acq_order   typology    intensity
+./beh/sub-01_task-audiobook.beh.tsv 1   Real    3
+./beh/sub-01_task-vscl.beh.tsv  2   Real    3
